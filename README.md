@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @smadaras
 - 👀 I’m interested in automatisation with Python
-- 🌱 I’m currently learning Bottle for Python
+- 🌱 I’m currently learning streamlit
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
