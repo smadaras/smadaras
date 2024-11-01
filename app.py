@@ -4,6 +4,6 @@ from js import document
 def main():
     msg = document.getElementById("msg")
     msg.innerHTML = 'Hello world'
-    print("It's python.")
+    print("It's python from file.")
        
 main()
