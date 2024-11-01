@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @smadaras
-- 👀 I’m interested in automatisation with Python
-- 🌱 I’m currently learning streamlit
-- 💞️ I’m looking to collaborate on ...
+- 👋 Hi, it's @smadaras
+- 👀 interested in automatisation with Python
+- 🌱 currently learning streamlit
+- 💞️ looking to collaborate on ...
 - 📫 How to reach me ...
 
 <!---
