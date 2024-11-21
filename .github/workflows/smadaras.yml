@@ -1,6 +1,9 @@
 name: smadaras-page
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
+env:
+  # Setting an environment variable with the value of a configuration variable
+  env_var: ${{ vars.ENV_VAR }}
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
