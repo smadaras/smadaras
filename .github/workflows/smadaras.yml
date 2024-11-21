@@ -1,4 +1,4 @@
-name: smadaras-page
+name: pages-build-deployment
 
 on: [push]
 
