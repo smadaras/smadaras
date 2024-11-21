@@ -4,8 +4,8 @@ from js import document
      
 def main():
     msg = document.getElementById("msg")
-    msg.innerHTML = 'Hello world with getenv'
+    msg.innerHTML = 'Hello world with GETENV'
     print(f"Current working directory: {os.getcwd()}")
-    print(f"Environment: {os.getenv('env_var')}")
+    print(f"Environment: {os.getenv('ENV_VAR')}")
        
 main()
