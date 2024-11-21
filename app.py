@@ -4,8 +4,9 @@ from js import document
      
 def main():
     msg = document.getElementById("msg")
-    msg.innerHTML = 'Hello world with pinned workflow'
+    msg.innerHTML = 'Hello world with new workflow'
     print(f"Current working directory: {os.getcwd()}")
     print(f"Environment: {os.getenv('ENV_VAR')}")
+    print(f"Static: {os.getenv('ENV_STATIC')}")
        
 main()

@@ -1,17 +1,18 @@
 name: smadaras-page
-run-name: ${{ github.actor }} is learning GitHub Actions
+
 on: [push]
+
 env:
   # Setting an environment variable with the value of a configuration variable
   ENV_VAR: ${{ vars.ENV_VAR }}
-  # ENV_VAR: "Monday"
+  ENV_STATIC: Static
+
 jobs:
-  check-bats-version:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-python@v5
         with:
-          node-version: '20'
-      - run: npm install -g bats
-      - run: bats -v
+          python-version: "3.13"
+      - run: python -c "import sys; print(sys.version)"
