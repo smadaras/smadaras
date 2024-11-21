@@ -4,7 +4,7 @@ from js import document
      
 def main():
     msg = document.getElementById("msg")
-    msg.innerHTML = 'Hello world with GETENV'
+    msg.innerHTML = 'Hello world with static variable'
     print(f"Current working directory: {os.getcwd()}")
     print(f"Environment: {os.getenv('ENV_VAR')}")
        
