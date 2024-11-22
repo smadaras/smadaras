@@ -7,6 +7,6 @@ def main():
     msg.innerHTML = 'Hello world with static.yml'
     print(f"Current working directory: {os.getcwd()}")
     print(f"Environment: {os.getenv('ENV_VAR')}")
-    print(f"Static: {os.getenv('ENV_STATIC')}")
+    print(f"Static: {os.getenv('url')}")
        
 main()
