@@ -4,7 +4,7 @@ from js import document
      
 def main():
     msg = document.getElementById("msg")
-    msg.innerHTML = 'Hello world alert envfix3'
+    msg.innerHTML = 'Hello world alert joblevel'
     print(f"Current working directory: {os.getcwd()}")
     print(f"Environment: {os.getenv('ENV_VAR')}")
     print(f"Static: {os.getenv('url')}")
