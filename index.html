@@ -10,7 +10,13 @@
 <body>
   <div id="msg">Loading page ...</div>
   <br>
+<button onclick="myFunction()">Try it</button>
 
+  <script>
+  function myFunction() {
+    alert(${process.env.ENV_SEC});
+  }
+  </script>
   <py-script src="app.py"></py-script>
 </body>
 </html>
