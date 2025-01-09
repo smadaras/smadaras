@@ -3,33 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">Logo</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="bio.html">Bio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to my website!</h1>
+        <p>I'm a software developer with a passion for building innovative solutions.</p>
+        <img src="images/me.jpg" alt="My Photo" class="hero-img">
+    </section>
 
-    <main class="hero">
-        <img src="images/photo.jpg" alt="Profile Photo" class="profile-photo">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi! I'm [Your Name], a passionate developer with expertise in modern web technologies.</p>
-        <a href="projects.html" class="cta-button">View Projects</a>
-    </main>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Project 1: Web Development</h3>
+                <p>This is a project I developed using HTML, CSS, and JavaScript.</p>
+                <img src="images/project1.jpg" alt="Project 1 Image" class="project-img">
+            </div>
+            <div class="project">
+                <h3>Project 2: Mobile App Development</h3>
+                <p>This is a project I developed using React Native.</p>
+                <img src="images/project2.jpg" alt="Project 2 Image" class="project-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Bio Section -->
+    <section id="bio">
+        <h2>About Me</h2>
+        <ul>
+            <li><strong>Education:</strong> Bachelor's Degree in Computer Science</li>
+            <li><strong>Skills:</strong> HTML, CSS, JavaScript, React, Node.js</li>
+            <li><strong>Contact Info:</strong> [your email address]</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Want to collaborate or discuss a project? Reach out to me at [your email address].</p>
+        <form action="" method="post">
+            <input type="email" name="email" placeholder="Email Address">
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="script.js"></script> <!-- Commented out, as we're not using JavaScript -->
 </body>
 </html>
